@@ -1,0 +1,245 @@
+2015-08-04 10:55:15,164 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 10:55:15,600 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 10:55:15,601 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 10:55:15,652 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 10:55:15,686 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 10:55:15,686 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 10:55:15,687 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 10:55:15,736 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10035,projectId:10007)
+2015-08-04 10:55:15,752 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10035 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 10:55:15 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 10:55:15,753 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 10:55:15,753 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 10:55:15,754 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 10:55:30,771 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10035 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 10:55:15 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 10:55:30,772 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 10:55:30,772 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 10:55:30,773 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 10:55:45,786 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10035 | FINISHED | 0 | 0 | Finished | 0 | No code changes were detected |  | 2015-8-4 10:55:15 | 1-1-1 0:0:0 | 0 |  | 10007| 1010014 | 10007 | -1 })
+2015-08-04 10:55:45,786 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 10:55:45,787 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - No code changes were detected
+2015-08-04 10:55:45,787 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+No code changes were detected (0%) 
+2015-08-04 10:55:45,787 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - No code changes were detected
+2015-08-04 10:55:45,788 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results
+2015-08-04 11:03:41,516 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 11:03:42,003 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 11:03:42,004 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 11:03:42,231 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 11:03:42,277 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 11:03:42,319 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 11:03:42,319 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 11:03:42,390 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10036,projectId:10007)
+2015-08-04 11:03:42,453 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10036 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 11:3:42 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:03:42,453 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:03:42,454 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 11:03:42,455 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 11:03:57,471 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10036 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:3:42 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:03:57,471 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:03:57,472 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:03:57,473 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:04:12,490 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10036 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:3:42 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:04:12,490 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:04:12,491 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:04:12,492 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:04:27,536 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10036 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:3:42 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:04:27,537 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:04:27,538 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:04:27,539 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:04:42,555 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10036 | FINISHED | 99 | 0 | Finished | 100 | Scan completed |  | 2015-8-4 11:3:42 | 2015-8-4 11:4:39 | 1 |  | 10007| 1010015 | 10007 | -1 })
+2015-08-04 11:04:42,555 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 99%
+2015-08-04 11:04:42,555 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - Scan completed
+2015-08-04 11:04:42,556 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+Scan completed (100%) 
+2015-08-04 11:04:42,556 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - Scan completed
+2015-08-04 11:04:42,556 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results
+2015-08-04 11:13:44,978 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 11:13:45,333 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 11:13:45,333 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 11:13:45,374 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 11:13:45,411 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 11:13:45,411 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 11:13:45,411 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 11:13:45,469 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10037,projectId:10007)
+2015-08-04 11:13:45,487 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:13:45,487 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:13:45,488 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 11:13:45,488 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 11:14:00,508 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:14:00,508 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:14:00,508 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:14:00,509 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:14:15,522 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:14:15,523 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:14:15,523 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:14:15,523 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:14:30,537 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:14:30,538 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:14:30,538 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:14:30,539 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:14:45,549 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | QUEUED | 0 | 0 | Queued | 0 |  |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:14:45,549 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:14:45,550 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "Queued"
+2015-08-04 11:14:45,551 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - QUEUED "Queued"
+ (0%) 
+2015-08-04 11:15:00,564 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:15:00,564 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:15:00,564 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:15:00,565 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:15:15,574 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:13:45 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:15:15,574 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:15:15,575 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:15:15,575 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:15:30,585 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10037 | FINISHED | 99 | 0 | Finished | 100 | Scan completed |  | 2015-8-4 11:13:45 | 2015-8-4 11:15:19 | 1 |  | 10007| 1010017 | 10007 | -1 })
+2015-08-04 11:15:30,585 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 99%
+2015-08-04 11:15:30,585 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - Scan completed
+2015-08-04 11:15:30,586 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+Scan completed (100%) 
+2015-08-04 11:15:30,586 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - Scan completed
+2015-08-04 11:15:30,587 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results
+2015-08-04 11:30:03,057 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 11:30:03,521 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 11:30:03,522 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 11:30:03,560 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 11:30:03,618 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 11:30:03,618 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 11:30:03,618 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 11:30:03,706 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10038,projectId:10007)
+2015-08-04 11:30:03,724 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:30:03,724 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:30:03,724 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 11:30:03,725 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 11:30:18,738 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:30:18,738 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:30:18,739 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:30:18,739 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:30:33,753 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:30:33,753 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:30:33,753 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:30:33,754 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:30:48,769 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:30:48,770 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:30:48,770 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:30:48,771 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:31:03,790 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | QUEUED | 0 | 0 | Queued | 0 |  |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:31:03,790 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:31:03,791 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "Queued"
+2015-08-04 11:31:03,792 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - QUEUED "Queued"
+ (0%) 
+2015-08-04 11:31:18,814 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:31:18,814 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:31:18,814 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:31:18,815 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:31:33,855 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:30:3 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:31:33,855 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:31:33,856 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:31:33,856 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:31:48,867 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10038 | FINISHED | 99 | 0 | Finished | 100 | Scan completed |  | 2015-8-4 11:30:3 | 2015-8-4 11:31:40 | 1 |  | 10007| 1010020 | 10007 | -1 })
+2015-08-04 11:31:48,867 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 99%
+2015-08-04 11:31:48,868 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - Scan completed
+2015-08-04 11:31:48,868 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+Scan completed (100%) 
+2015-08-04 11:31:48,868 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - Scan completed
+2015-08-04 11:31:48,869 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results
+2015-08-04 11:32:37,246 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 11:32:37,654 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 11:32:37,654 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 11:32:37,721 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 11:32:37,787 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 11:32:37,787 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 11:32:37,788 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 11:32:37,861 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10039,projectId:10007)
+2015-08-04 11:32:37,879 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10039 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 11:32:37 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:32:37,880 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:32:37,880 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 11:32:37,881 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 11:32:52,893 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10039 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:32:37 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:32:52,893 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:32:52,894 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:32:52,894 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:33:07,906 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10039 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:32:37 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:33:07,906 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:33:07,907 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:33:07,907 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:33:22,919 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10039 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:32:37 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:33:22,919 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:33:22,919 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:33:22,920 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:33:37,953 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10039 | FINISHED | 0 | 0 | Finished | 0 | No code changes were detected |  | 2015-8-4 11:32:37 | 1-1-1 0:0:0 | 0 |  | 10007| 1010020 | 10007 | -1 })
+2015-08-04 11:33:37,954 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:33:37,955 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - No code changes were detected
+2015-08-04 11:33:37,956 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+No code changes were detected (0%) 
+2015-08-04 11:33:37,956 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - No code changes were detected
+2015-08-04 11:33:37,957 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results
+2015-08-04 11:38:07,390 [pool-1-thread-1] (CxCLIScanJob.java:54) INFO  - Project name is "Sample2Scan"
+2015-08-04 11:38:07,763 [pool-1-thread-1] (CxScanJob.java:86) INFO  - Check CLI version support: 7.1.8.1
+2015-08-04 11:38:07,764 [pool-1-thread-1] (CxScanJob.java:99) INFO  - Log in
+2015-08-04 11:38:07,980 [pool-1-thread-1] (CxCLIScanJob.java:66) INFO  - Read preset and configuration settings
+2015-08-04 11:38:08,011 [pool-1-thread-1] (CxCLIScanJob.java:224) TRACE - Preset response:GetPresetsListResult(presets.size():19, presets:[PresetChild(id:17, name:Default 2014), PresetChild(id:7, name:Default), PresetChild(id:20, name:JSSEC), PresetChild(id:19, name:Apple Secure Coding Guide), PresetChild(id:16, name:WordPress), PresetChild(id:15, name:OWASP TOP 10 - 2013), PresetChild(id:14, name:Mobile), PresetChild(id:13, name:High and Medium and Low), PresetChild(id:12, name:HIPAA), PresetChild(id:11, name:MISRA_CPP), PresetChild(id:10, name:MISRA_C), PresetChild(id:9, name:Android), PresetChild(id:8, name:SANS top 25), PresetChild(id:6, name:Empty preset), PresetChild(id:5, name:PCI), PresetChild(id:4, name:OWASP TOP 10 - 2010), PresetChild(id:3, name:High and Medium), PresetChild(id:2, name:Error handling), PresetChild(id:1, name:All)])
+2015-08-04 11:38:08,012 [pool-1-thread-1] (CxCLIScanJob.java:225) TRACE - Configurations response:GetConfigurationsListResult(presets.size():2, presets:[ConfigurationsChild(id:1, name:Default Configuration), ConfigurationsChild(id:100001, name:Japanese (Shift-JIS))])
+2015-08-04 11:38:08,012 [pool-1-thread-1] (CxCLIScanJob.java:110) INFO  - Request scan
+2015-08-04 11:38:08,073 [pool-1-thread-1] (CxCLIScanJob.java:508) TRACE - Existing project scan request response:RunScanResult(scanId:10040,projectId:10007)
+2015-08-04 11:38:08,089 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WAITING_TO_PROCESS | 0 | 0 | New | 0 |  |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:38:08,089 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:38:08,090 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "New"
+2015-08-04 11:38:08,090 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "New"
+ (0%) 
+2015-08-04 11:38:23,121 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:38:23,121 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:38:23,122 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:38:23,122 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:38:38,135 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:38:38,135 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:38:38,136 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:38:38,136 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:38:53,152 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WAITING_TO_PROCESS | 0 | 0 | SourcePullingAndDeployment | 0 |  |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 0 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:38:53,152 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:38:53,153 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "SourcePullingAndDeployment"
+2015-08-04 11:38:53,153 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WAITING_TO_PROCESS "SourcePullingAndDeployment"
+ (0%) 
+2015-08-04 11:39:08,179 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | QUEUED | 0 | 0 | Queued | 0 |  |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:39:08,179 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:39:08,180 [pool-2-thread-1] (WaitScanCompletionJob.java:107) INFO  - Current stage:  "Queued"
+2015-08-04 11:39:08,180 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - QUEUED "Queued"
+ (0%) 
+2015-08-04 11:39:23,200 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:39:23,200 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:39:23,201 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:39:23,201 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:39:38,213 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | WORKING | 0 | 0 | Scanning | 0 | Engine starts scan |  | 2015-8-4 11:38:8 | 1-1-1 0:0:0 | 1 |  | 10007| -1 | 10007 | -1 })
+2015-08-04 11:39:38,214 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 0%
+2015-08-04 11:39:38,214 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Scanning" - Engine starts scan
+2015-08-04 11:39:38,215 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - WORKING "Scanning"
+Engine starts scan (0%) 
+2015-08-04 11:39:53,226 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 10040 | FINISHED | 99 | 0 | Finished | 100 | Scan completed |  | 2015-8-4 11:38:8 | 2015-8-4 11:39:40 | 1 |  | 10007| 1010021 | 10007 | -1 })
+2015-08-04 11:39:53,226 [pool-2-thread-1] (WaitScanCompletionJob.java:75) INFO  - Total scan worked: 99%
+2015-08-04 11:39:53,226 [pool-2-thread-1] (WaitScanCompletionJob.java:105) INFO  - Current stage:  "Finished" - Scan completed
+2015-08-04 11:39:53,226 [pool-2-thread-1] (WaitScanCompletionJob.java:115) TRACE - FINISHED "Finished"
+Scan completed (100%) 
+2015-08-04 11:39:53,227 [pool-2-thread-1] (WaitScanCompletionJob.java:127) INFO  - Scan completed
+2015-08-04 11:39:53,227 [pool-1-thread-1] (CxCLIScanJob.java:154) INFO  - Retrieving results

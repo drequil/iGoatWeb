@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CxXMLResults DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007" ScanStart="Tuesday, August 04, 2015 11:39:10 AM" Preset="Default 2014" ScanTime="00h:00m:30s" LinesOfCodeScanned="29" FilesScanned="6" ReportCreationTime="Tuesday, August 04, 2015 11:39:53 AM" Team="CxServer" CheckmarxVersion="7.1.8 HF2" ScanComments="" ScanType="Full" SourceOrigin="GIT">
+  <Query id="100000" categories="Custom;Check" cweId="0" name="Hard_Coded_Greet" group="Python_High_Risk" Severity="High" Language="Python" LanguageHash="0164496893001641" LanguageChangeDate="2015-07-09T00:00:00.0000000" SeverityIndex="3">
+    <Result NodeId="10100210001" FileName="/Sample.py" Status="New" Line="1" Column="4" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=1" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="1" SimilarityId="-754342433">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>1</Line>
+          <Column>4</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>1</Number>
+              <Code>def greet(name):</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210002" FileName="/Sample.py" Status="New" Line="3" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=2" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="2" SimilarityId="-1907056621">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>3</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>3</Number>
+              <Code>greet('Jack')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210003" FileName="/Sample.py" Status="New" Line="3" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=3" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="3" SimilarityId="-1907056621">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>3</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>3</Number>
+              <Code>greet('Jack')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210004" FileName="/Sample.py" Status="New" Line="4" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=4" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="4" SimilarityId="354948691">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>4</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>4</Number>
+              <Code>greet('Jill')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210005" FileName="/Sample.py" Status="New" Line="4" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=5" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="5" SimilarityId="354948691">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>4</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>4</Number>
+              <Code>greet('Jill')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210006" FileName="/Sample.py" Status="New" Line="5" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=6" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="6" SimilarityId="-272426017">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>5</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>5</Number>
+              <Code>greet('Bob')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210007" FileName="/Sample.py" Status="New" Line="5" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=7" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="7" SimilarityId="-272426017">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>5</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>5</Number>
+              <Code>greet('Bob')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210008" FileName="/Sample.py" Status="New" Line="6" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=8" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="8" SimilarityId="118906279">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>6</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>6</Number>
+              <Code>greet('Andre3')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+    <Result NodeId="10100210009" FileName="/Sample.py" Status="New" Line="6" Column="1" FalsePositive="False" Severity="High" AssignToUser="" state="0" Remark="" DeepLink="http://ANDRE-T440P/CxWebClient/ViewerMain.aspx?scanid=1010021&amp;projectid=10007&amp;pathid=9" SeverityIndex="3">
+      <Path ResultId="1010021" PathId="9" SimilarityId="118906279">
+        <PathNode>
+          <FileName>/Sample.py</FileName>
+          <Line>6</Line>
+          <Column>1</Column>
+          <NodeId>1</NodeId>
+          <Name>greet</Name>
+          <Type></Type>
+          <Length>5</Length>
+          <Snippet>
+            <Line>
+              <Number>6</Number>
+              <Code>greet('Andre3')</Code>
+            </Line>
+          </Snippet>
+        </PathNode>
+      </Path>
+    </Result>
+  </Query>
+</CxXMLResults>
