@@ -1,0 +1,16 @@
+Changes for Checkmarx_scan_Bamboo.bat
+
+set PRESET= (If not inserted All is default)
+set EXCLUDE=
+set USERNAME=
+set PASSWORD=
+set CHECKMARX_HOST=
+set CX_CONSOLE_PATH= Path to CxConsole_CI- ex: C:\Users\xxx\Downloads\CxConsole_CI
+set JAVA_HOME= path to java.exe - ex: C:\Program Files (x86)\Java\jre7\bin
+
+
+In the Bamboo- Tasks->Command->Command Configuration
+
+Executable -		 Checkmarx_scan_Bamboo.bat
+Argument - 		 HIGH_VULNERABILITY_THRESHOLD=120 MEDIUM_VULNERABILITY_THRESHOLD=200
+Environment variables -  JOB_NAME=<replace with CxProjectName> WORKSPACE=${bamboo.build.working.directory}
